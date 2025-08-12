@@ -3,8 +3,11 @@ Iris Dataset Classification using k-NN
 Implemented a k-Nearest Neighbors (k-NN) classifier on the Iris dataset to classify iris species (setosa, versicolor, virginica) based on four features:
 
 Sepal length
+
 Sepal width
+
 Petal length
+
 Petal width
 
 Key Tasks Completed:
@@ -17,12 +20,8 @@ Key Tasks Completed:
 7. Train a K-Nearest Neighbors (KNN) model
 8. Test with different k values (1, 3, 5, 7)
 
-Key Results
-k	Avg. CV Accuracy	Precision	Recall	F1-Score
-1	0.96	0.96	0.96	0.96
-3	0.966	0.967	0.966	0.966
-5	0.966	0.967	0.966	0.966
-7	0.953	0.953	0.953	0.953
+Key Result
+
 Best Model: k=3 or k=5 (96.7% accuracy)
 
 Libraries Used: scikit-learn, pandas, matplotlib, seaborn
